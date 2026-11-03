@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAabsy6Iv1R-brH9fPhnbXvOcU-MYGnZEg',
-    appId: '1:557250367162:web:3c22919ed54e45b6037c83',
-    messagingSenderId: '557250367162',
-    projectId: 'safety-9a307',
-    authDomain: 'safety-9a307.firebaseapp.com',
-    storageBucket: 'safety-9a307.firebasestorage.app',
-    measurementId: 'G-7GW3LD9ERR',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_WEB', defaultValue: 'AIzaSyAabsy6Iv1R-brH9fPhnbXvOcU-MYGnZEg'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_WEB', defaultValue: '1:557250367162:web:3c22919ed54e45b6037c83'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID', defaultValue: '557250367162'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: 'safety-9a307'),
+    authDomain: String.fromEnvironment('FIREBASE_AUTH_DOMAIN', defaultValue: 'safety-9a307.firebaseapp.com'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: 'safety-9a307.firebasestorage.app'),
+    measurementId: String.fromEnvironment('FIREBASE_MEASUREMENT_ID', defaultValue: 'G-7GW3LD9ERR'),
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCVPyRW98cuuuyBU-UV2s3Tal7rUD6qMPI',
-    appId: '1:557250367162:android:e0c18d92f09adbd0037c83',
-    messagingSenderId: '557250367162',
-    projectId: 'safety-9a307',
-    storageBucket: 'safety-9a307.firebasestorage.app',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_ANDROID', defaultValue: 'AIzaSyCVPyRW98cuuuyBU-UV2s3Tal7rUD6qMPI'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_ANDROID', defaultValue: '1:557250367162:android:e0c18d92f09adbd0037c83'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID', defaultValue: '557250367162'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: 'safety-9a307'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: 'safety-9a307.firebasestorage.app'),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAZSWPCQWzNU-xZPWO3oV-KYfyL50iPROQ',
-    appId: '1:557250367162:ios:9273c12d4d0737c8037c83',
-    messagingSenderId: '557250367162',
-    projectId: 'safety-9a307',
-    storageBucket: 'safety-9a307.firebasestorage.app',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_IOS', defaultValue: 'AIzaSyAZSWPCQWzNU-xZPWO3oV-KYfyL50iPROQ'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_IOS', defaultValue: '1:557250367162:ios:9273c12d4d0737c8037c83'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID', defaultValue: '557250367162'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: 'safety-9a307'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: 'safety-9a307.firebasestorage.app'),
     iosBundleId: 'com.example.safetyAiApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAZSWPCQWzNU-xZPWO3oV-KYfyL50iPROQ',
-    appId: '1:557250367162:ios:9273c12d4d0737c8037c83',
-    messagingSenderId: '557250367162',
-    projectId: 'safety-9a307',
-    storageBucket: 'safety-9a307.firebasestorage.app',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_MACOS', defaultValue: 'AIzaSyAZSWPCQWzNU-xZPWO3oV-KYfyL50iPROQ'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_IOS', defaultValue: '1:557250367162:ios:9273c12d4d0737c8037c83'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID', defaultValue: '557250367162'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: 'safety-9a307'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: 'safety-9a307.firebasestorage.app'),
     iosBundleId: 'com.example.safetyAiApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAabsy6Iv1R-brH9fPhnbXvOcU-MYGnZEg',
-    appId: '1:557250367162:web:fd91d844b285046c037c83',
-    messagingSenderId: '557250367162',
-    projectId: 'safety-9a307',
-    authDomain: 'safety-9a307.firebaseapp.com',
-    storageBucket: 'safety-9a307.firebasestorage.app',
-    measurementId: 'G-PHZY642GXD',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_WINDOWS', defaultValue: 'AIzaSyAabsy6Iv1R-brH9fPhnbXvOcU-MYGnZEg'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_WINDOWS', defaultValue: '1:557250367162:web:fd91d844b285046c037c83'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID', defaultValue: '557250367162'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: 'safety-9a307'),
+    authDomain: String.fromEnvironment('FIREBASE_AUTH_DOMAIN', defaultValue: 'safety-9a307.firebaseapp.com'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: 'safety-9a307.firebasestorage.app'),
+    measurementId: String.fromEnvironment('FIREBASE_MEASUREMENT_ID_WINDOWS', defaultValue: 'G-PHZY642GXD'),
   );
 }
